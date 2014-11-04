@@ -1,6 +1,6 @@
 ## Synopsis:
 
-  PDU3VSR_to_graphite.sh will scrape the web interface of a TrippLite PDU with a WebCard that support 
+  PDU3VSR_to_graphite.sh will scrape the web interface of a TrippLite PDU with a WebCard that supports
 per port metering and ship them off to Graphite, so you can do cool stuff like see how much power that 
 blade chassis you might be in charge of is actually using (Sample graphs coming!)
 
