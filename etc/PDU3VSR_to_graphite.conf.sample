@@ -1,0 +1,21 @@
+# Default settings are stored in /usr/local/etc/PDU3VSR_to_graphite.conf
+# by default. You can also specify a config file from the command line
+# by specifying it after the script name if you're monitoring more than
+# one PDU.
+#
+# If you don't have one, make one from the following:
+#
+# FQDN of the PDU you want to get metrics for
+PDUHOST=fqdn.pdu.local
+# Account to use. In my case only manager and admin work.
+PDUUSER=manager
+# Password for the above account
+PDUPASS=manager_password
+# Number of power sockets your PDU has
+PDUPORT=number_of_ports_your_pdu_has
+# FQDN of your graphite server
+GRAPHITE=fqdn.graphite.local
+# Port your carbon-cache or relay or aggregator is listening on
+GRAPHITEPORT=2003
+# How often you want this to run
+INTERVAL=60
